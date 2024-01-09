@@ -1,0 +1,24 @@
+.addPage{
+    form{
+        margin: 30px 0px;
+        padding-left: 170px;
+        display: flex;
+        gap: 10px;
+        input{
+            border: none;
+            outline: #739072;
+            padding: 5px 10px;
+            background-color: #afc8ad9d;
+            // border: 2px solid #739072;
+            border-radius: 5px;
+        }
+        button{
+            padding: 5px 10px;
+            background-color: #afc8ad9d;
+            border: 1px solid #739072;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #739072;
+        }
+    }
+}

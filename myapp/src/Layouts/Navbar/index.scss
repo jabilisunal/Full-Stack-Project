@@ -1,0 +1,21 @@
+.navbar {
+  max-width: 100%;
+  background-color: #afc8ad9d;
+  &_container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 30px;
+    a {
+      color: #739072;
+      font-size: 16px;
+      font-weight: 700;
+      transition: 300ms;
+      &:hover {
+        color: #3a4d39;
+      }
+    }
+  }
+}
